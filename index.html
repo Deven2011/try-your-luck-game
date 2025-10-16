@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Your Luck Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="cards-container">
+            <div class="card" id="card1">
+                <p class="text-red">Click</p>
+            </div>
+            <div class="card" id="card2">
+                <p class="text-green">Click</p>
+            </div>
+            <div class="card" id="card3">
+                <p class="text-blue">Click</p>
+            </div>
+        </div>
+        <button id="luckButton">Try Your Luck</button>
+    </div>
+
+    <div id="resultPopup" class="popup-container hidden">
+        <div class="popup-content">
+            <p id="popupMessage"></p>
+            <button id="closePopupButton">OK</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
